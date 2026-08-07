@@ -1,0 +1,38 @@
+- C is a general-purpose programming language developed by Dennis Ritchie at Bell Labs in 1972. It is one of the most widely used programming languages
+  - Supports procedural and structured programming.
+  - Fast execution speed and low-level memory access capabilities.
+  - Widely used in operating systems, embedded systems, compilers, and system software development.
+
+MAIN FEATURES OF C LANGUAGE
+
+- General Purpose and Portable
+- Procedural Programming Language
+- Low-level memory access
+- Fast Speed
+- Clean Syntax
+
+APPLICATION OF C LANGUAGE
+
+- Operating systems
+	- Used for developing operating systems such as Linux and UNIX due to its efficiency and hardware-level access.
+- Embedded systems
+	- Widely used in microcontrollers, IoT devices, and consumer electronics
+- System Software
+	- Used to develop device drivers, assemblers, linkers and system utilities
+- Compiler development
+	- Many compilers and interpreters are written in C because of its performance and portability
+- Database systems
+	- Used in database engines for efficient data storage and processing
+- Game development
+	- Used for developng game engines and performance-critical gaming applications
+- Networking applications
+	- Used to build network protocols, servers, and communication software
+- GUI Applications
+	- Used for developing graphical user interface applications and desktop software
+- Scientific Applications
+	- Used in scientific computing and simulation software requiring high performance
+- Cybersecurity Tools
+	- Used in security tools, penetration testing software, and network analyzers
+
+
+

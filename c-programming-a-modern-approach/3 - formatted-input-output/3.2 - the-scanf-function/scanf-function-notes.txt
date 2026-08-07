@@ -1,0 +1,20 @@
+The scanf Function
+
+-	scanf reads input according to a particular format.
+		- A scanf formal string, 
+				- like a printf format string, may contain both ordinary characters and conversion specifications
+		- may contain both ordinary characters and conversion specifications
+
+- In many cases, a scanf format string will contain only conversion specifications, as in the following example
+
+int i, j;
+float x, y;
+
+scanf("%d%d%f%f", &i, &j, &x, &y);
+
+How scanf Works
+
+- It is essentially a "pattern-matching" function
+		- tries to match up groups of input characters with conversion specifications
+
+- 

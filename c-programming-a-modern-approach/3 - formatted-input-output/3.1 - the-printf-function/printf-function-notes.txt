@@ -1,0 +1,40 @@
+The printf function
+	- designed to display contents of a string, known as 'format string'
+
+structure:
+	- printf(string, expr1, expr2, ...);
+
+Values displayed can be
+	 - constants
+	 - variables
+	 - complicated expressions
+	 - no limit on the number of values that can be printed in single call
+
+- Ordinary characters in a format string are printed exactly as they appear in the string
+- conversion specifications are replacted by the values to be printed
+
+Consider the following example:
+
+int i, j;
+float x, y;
+
+i = 10;
+j = 20;
+x = 43.2892f;
+y = 5527.0f;
+
+printf("i = %d, j = %d, x = %f, y = %f\n", i, j, x, y);
+
+Output:
+
+i = 10, j = 20, x = 43.289200, y = 5527.00000
+
+Warning:
+
+C compilers arent required to check the number of conversion specifications in a format string matches the number of output items
+
+printf("%d %d\n", i); // WRONG
+
+printf("%d\n, i, j); // WRONG
+
+printf("%f %d\n", i, x); // WRONG
