@@ -1,0 +1,24 @@
+Assignment Operators
+
+Value of an expression computed
+	- store in variable for later use
+	- C's = (simple assignment) operator is used for that purpose
+
+Simple Assignment
+	- The effect of the assignment v = e 
+		- to evaluate the expression e and copy its value into value
+	- Example
+		- i = 5 
+		- j = i
+		- k = 10 * i + j
+
+Lvalues Example
+	-	x
+	- arr[5]
+	- *ptr
+	- emp.salary
+
+Rvalues Example	
+	- 42
+	- (a + b)
+	- &x

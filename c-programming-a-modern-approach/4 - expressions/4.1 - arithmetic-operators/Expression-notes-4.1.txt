@@ -1,0 +1,17 @@
+Arithmetic Operators
+
+	- The arithmetic operators	
+		
+	Unary
+		-> (+) unary plus
+		-> (-) unary plus
+	Binary
+		- Additive
+			- (+) - Addition 
+			- (-) - Subtraction
+		- Multiplicative
+			- (*) - Multiplication
+			- (/) - Division
+			- (%) - Remainder
+
+			

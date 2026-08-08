@@ -1,0 +1,22 @@
+Expressions in C
+
+Operators are basic tools for building Expressions
+	- C has a rich collection of them
+
+C provides rudimentary operators found in most programming languages
+	- Arithmetic Operators	
+		- Addition
+		- Subtraction
+		- Multiplication
+		- Division
+
+	- Relational Operators
+		- to perform comparisons
+			- i is greater than 0
+
+	- Logical Operators	
+		- to build conditions
+			- such as "i is greater than and i is less than 10"
+
+	- And many more
+
