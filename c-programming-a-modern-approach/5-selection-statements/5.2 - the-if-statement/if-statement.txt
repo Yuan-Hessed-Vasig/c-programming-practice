@@ -1,0 +1,14 @@
+The if statement allows program
+	- to choose between two alternatives
+		- by testing value of expression
+
+Simplest Form:
+	- if(expression) statement
+
+example
+
+if (line_num == MAX_LINES)
+	line_num = 0;
+
+Don't confuse == (equality) with = (assignment)
+

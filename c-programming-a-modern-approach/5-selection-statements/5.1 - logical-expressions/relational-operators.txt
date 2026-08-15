@@ -1,0 +1,17 @@
+Relation Operators
+
+Corresponds to the
+	- <
+	- >
+	- <=
+	- >=
+
+- They produce
+	- 0(false)
+	- 1(true)
+
+- For example:
+	- 10 < 11 is 1
+	- 11 < 10 is 0
+
+	

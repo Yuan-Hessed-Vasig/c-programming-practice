@@ -1,0 +1,12 @@
+Equality Operators
+
+Symbol:
+	- == 
+		- equal to
+	- != 
+		- not equal to
+
+For example:
+
+i < j == j < k
+
