@@ -1,0 +1,10 @@
+Switch Statement:
+
+
+- Form:
+	switch(expression) {
+		case constant-expression : statements
+		....
+		case constant-expression : statements
+		default : statements
+	}
