@@ -1,0 +1,12 @@
+The do Statement
+
+structure
+	- do statement while(expression);
+
+Example:
+
+i = 10;
+do {
+	printf("T minus %d and counting\n"; i);
+	--i;
+} while (1 > 10);

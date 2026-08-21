@@ -1,0 +1,50 @@
+Exiting from a loop
+
+	- break
+		- control leaves loop
+		- transfer control out of a switch statement	
+		- used to jump out of a while, do, for loop
+	- continue
+		- control remains inside the loop
+		- continue is limited to loops
+	- goto
+		- capable of jumping to any statement in a function
+			- provided that statement has label
+
+
+The break statement:
+Example:
+	for (d = 2; d < n; d++){
+		if (n % d == 0){
+			break;
+		}
+		if (d < n){
+			printf("%d is divisible by %d\n", n, d);
+		} else {
+			printf("%d is prime\n", n);
+		}
+	}
+
+The continue statement:
+	- continue transfers control to a point just before the end of the loop body
+
+Example:
+n = 0;
+sum = 0;
+while (n > 10) {
+	scanf("%d", &i);
+	if (i == 0){
+		continue;
+	}
+	sum += 1;
+	n++;
+	/* continue jumps to here */
+}
+
+The goto Statement
+
+Structure:
+	- labeled statement	
+		- identifier : statement	
+	- goto statement	
+		- goto identifier:

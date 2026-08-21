@@ -1,0 +1,35 @@
+The for statement
+
+structure:
+	- for (expr1 ; expr2 ; expr3) statement
+
+Example:
+	for(i=10; i>0; i++){
+		printf("T minus %d and counting\n", i);
+	}
+
+The for statement is closely related to the while statement
+	- in fact, except in a few rare cases
+		- a for loop can always be replaced by an equivalent while loop:
+
+expr1;
+while (expr2){
+	statement
+	expr;
+}
+
+for Statement Idioms
+
+Counting up from 0 to n - 1:
+	- for (i = 0; i < n; i++)...
+
+Counting up from 1 to n:
+	- for (i = 1; i <= n; i++)...
+
+Counting down form n-1 to 0:
+	- for (i = n - 1; i >=; i--)...
+
+Counting down from n to 1:
+	- for (i = n; i > 0; i--)...
+
+	Tip: for(;;) is used for infinite loop like while(1)

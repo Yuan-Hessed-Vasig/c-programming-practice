@@ -1,0 +1,11 @@
+A statement can be null
+	- devoid of symbols except for the semicolon at the end
+
+Here's an example:
+	i = 0; ; j = 1
+
+	This line contains three statements: 
+		- an assignment to i.
+		- A null statement
+		- an assignment to j.
+
